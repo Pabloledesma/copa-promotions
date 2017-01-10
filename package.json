@@ -1,0 +1,23 @@
+{
+  "name": "copa-promotions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "cross-env NODE_ENV=development webpack --progress --hide-modules",
+    "dev": "cross-env NODE_ENV=development webpack --watch --progress --hide-modules",
+    "hmr": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
+    "production": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
+    "laravel-mix": "^0.3.0",
+    "lite-server": "^2.2.2",
+    "vue": "^2.1.8",
+    "vuejs-datepicker": "^0.5.2"
+  }
+}
